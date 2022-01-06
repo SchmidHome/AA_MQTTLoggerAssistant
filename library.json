@@ -14,6 +14,9 @@
         "name": "AA_ArduinoAssistance",
         "version": "https://github.com/SchmidHome/AA_ArduinoAssistance.git"
     }, {
+        "name": "AA_MQTTassistant",
+        "version": "https://github.com/SchmidHome/AA_MQTTassistant.git"
+    }, {
         "name": "Logger",
         "version": "https://github.com/SchmidHome/Logger.git"
     }],
