@@ -1,0 +1,23 @@
+{
+    "name": "AA_MQTTLoggerAssistant",
+    "version": "1.0.0",
+    "description": "MQTT logger for Arduino",
+    "keywords": "assistance, MQTT logger",
+    "authors": {
+        "name": "Johannes Schmid"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SchmidHome/AA_MQTTLoggerAssistant.git"
+    },
+    "dependencies": [{
+        "name": "AA_ArduinoAssistance",
+        "version": "https://github.com/SchmidHome/AA_ArduinoAssistance.git"
+    }, {
+        "name": "Logger",
+        "version": "https://github.com/SchmidHome/Logger.git"
+    }],
+    "license": "MIT",
+    "frameworks": "Arduino",
+    "platforms": "*"
+}
