@@ -2,7 +2,7 @@
 
 // -------------------------------------------------------------------------------- MQTTLoggerAssistant
 MQTTLoggerAssistant::MQTTLoggerAssistant(MQTTassistant& mqtt, String topic, bool set_as_default)
-    : Assistant(), Logger(set_as_default), mqtt(mqtt), topic(topic) {}
+    : Logger(set_as_default), Assistant(), mqtt(mqtt), topic(topic) {}
 
 void MQTTLoggerAssistant::_setup() {
     _loop();
